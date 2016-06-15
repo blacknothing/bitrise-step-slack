@@ -24,6 +24,10 @@ module SlackStep
       !nenv.bitrise_build_status?
     end
 
+    def install_page
+      nenv.bitrise_public_install_page_url
+    end
+
     def git_commit
       nenv.git_clone_commit_hash[0...7]
     end

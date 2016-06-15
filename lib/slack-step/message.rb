@@ -58,8 +58,8 @@ module SlackStep
 
     def field_scheme
       {
-        title: "Scheme",
-        value: env.xcode_scheme,
+        title: "Install",
+        value: "[##{env.build_number}](#{install_page})",
         short: true,
       }
     end
