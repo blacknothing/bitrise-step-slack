@@ -59,7 +59,7 @@ module SlackStep
     def field_scheme
       {
         title: "Install",
-        value: "[##{env.build_number}](#{install_page})",
+        value: "[##{env.build_number}](#{env.install_page})",
         short: true,
       }
     end
