@@ -16,6 +16,10 @@ module SlackStep
       nenv.bitrise_build_number
     end
 
+     def major_version_number
+      nenv.major_build_number
+    end
+
     def build_url
       nenv.bitrise_build_url
     end
