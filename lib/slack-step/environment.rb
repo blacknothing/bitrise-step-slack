@@ -17,7 +17,7 @@ module SlackStep
     end
 
      def major_version_number
-      nenv.major_build_number
+      nenv.major_version
     end
 
     def build_url
