@@ -24,6 +24,10 @@ module SlackStep
       nenv.bitrise_build_url
     end
 
+    def app_title
+      nenv.bitrise_app_title
+    end
+
     def build_successful?
       !nenv.bitrise_build_status?
     end
