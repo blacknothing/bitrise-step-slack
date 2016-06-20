@@ -59,7 +59,7 @@ module SlackStep
     def field_scheme
       env.install_page.nil? ? nil : {
         title: "Install",
-        value: "[#{app_title} #{env.major_version_number}.0.#{env.build_number}](#{env.install_page})",
+        value: "[#{env.app_title} #{env.major_version_number}.0.#{env.build_number}](#{env.install_page})",
         short: true,
       }
     end
